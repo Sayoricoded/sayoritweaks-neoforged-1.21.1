@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sayoritweaks:block/loose_gravel_slab"
+    },
+    "type=top": {
+      "model": "sayoritweaks:block/loose_gravel_slab_top"
+    },
+    "type=double": {
+      "model": "sayoritweaks:block/loose_gravel_slab_double"
+    }
+  }
+}
