@@ -32,7 +32,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.LOOSE_BLACK_COBBLESTONE.get());
         add(ModBlocks.BLACK_COBBLESTONE.get(),
                 block -> ItemsWhenMissingSilkTouch(ModBlocks.BLACK_COBBLESTONE.get(),
-                        ModItems.BLACKSTONE_ROCK.get(), 3));
+                        ModItems.BLACKSTONE_ROCK.get(), 2));
     }
 
     protected LootTable.Builder ItemsWhenMissingSilkTouch(Block pBlock, Item item, int drops) {

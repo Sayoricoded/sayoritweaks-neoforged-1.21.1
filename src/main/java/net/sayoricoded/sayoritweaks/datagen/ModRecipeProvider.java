@@ -86,42 +86,42 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         //items from blocks
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.DIRT_PILE.get(), 3)
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.DIRT_PILE.get(), 2)
                 .requires(ModBlocks.LOOSE_DIRT)
                 .unlockedBy("has_dirt_pile", has(ModItems.DIRT_PILE))
                 .save(recipeOutput, "dirt_pile_from_block");
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SAND_PILE.get(), 3)
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SAND_PILE.get(), 2)
                 .requires(Blocks.SAND)
                 .unlockedBy("has_sand_pile", has(ModItems.SAND_PILE))
                 .save(recipeOutput, "sand_pile_from_block");
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.GRAVEL_PILE.get(), 3)
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.GRAVEL_PILE.get(), 2)
                 .requires(Blocks.GRAVEL)
                 .unlockedBy("has_gravel_pile", has(ModItems.GRAVEL_PILE))
                 .save(recipeOutput, "gravel_pile_from_block");
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.CLAY_PILE.get(), 3)
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.CLAY_PILE.get(), 2)
                 .requires(Blocks.CLAY)
                 .unlockedBy("has_clay_pile", has(ModItems.CLAY_PILE))
                 .save(recipeOutput, "clay_pile_from_block");
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SOUL_SAND_PILE.get(), 3)
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SOUL_SAND_PILE.get(), 2)
                 .requires(Blocks.SOUL_SAND)
                 .unlockedBy("has_soul_sand_pile", has(ModItems.SOUL_SAND_PILE))
                 .save(recipeOutput, "soul_sand_pile_from_block");
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.STONE_ROCK.get(), 3)
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.STONE_ROCK.get(), 2)
                 .requires(ModBlocks.LOOSE_COBBLESTONE)
                 .unlockedBy("has_stone_rock", has(ModItems.STONE_ROCK))
                 .save(recipeOutput, "stone_rock_from_block");
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.DEEPSLATE_ROCK.get(), 3)
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.DEEPSLATE_ROCK.get(), 2)
                 .requires(ModBlocks.LOOSE_COBBLED_DEEPSLATE)
                 .unlockedBy("has_deepslate_rock", has(ModItems.DEEPSLATE_ROCK))
                 .save(recipeOutput, "deepslate_rock_from_block");
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.BLACKSTONE_ROCK.get(), 3)
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.BLACKSTONE_ROCK.get(), 2)
                 .requires(ModBlocks.LOOSE_BLACK_COBBLESTONE)
                 .unlockedBy("has_blackstone_rock", has(ModItems.BLACKSTONE_ROCK))
                 .save(recipeOutput, "blackstone_rock_from_block");
